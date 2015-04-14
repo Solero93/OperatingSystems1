@@ -63,6 +63,9 @@
 /* frecuencia de reloj requerida (ticks/segundo) */
 #define TICK 100
 
+//Ticks por rodaja
+#define TICKS_POR_RODAJA 10 * TICK
+
 /* dirección de puerto de E/S del terminal */
 #define DIR_TERMINAL 1
 

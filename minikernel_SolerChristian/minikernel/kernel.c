@@ -132,7 +132,7 @@ static void muestra_lista(lista_BCPs* lista){
 		printf("No hay procesos en la lista.");
 	}
 	while (head != NULL){
-		printk("-> Proceso id: %d , estado: %d \n", head->id, head->estado);
+		printk("-> Proceso id: %d , rodaja: %d , vueltas: %d, estado: %d \n", head->id, head->rodaja, head->vueltas, head->estado);
 		head = head->siguiente;
 	}
 }
@@ -148,8 +148,21 @@ static void bloquear (lista_BCPs * lista){
 
 	p_proc_actual = planificador();
         cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
-		
 }
+
+/*
+ * TODO Practica 2 - Cambios de contexto voluntarios e involuntarios
+ */
+static void cambio_proceso (lista_BCPs * lista){
+	fijar_nivel_int(NIVEL_3);
+	BCP* head = lista_listos.primero;
+	eliminar_primero(&lista_listos);
+	insertar_ultimo(lista,head);
+
+	p_proc_actual = planificador();
+        cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
+}
+
 /*
 * Practica 1 - Desbloquear procesos
 */
@@ -171,6 +184,12 @@ static void ajustar_dormidos (){
 	}	
 }
 
+/*
+ * TODO Practica 2 - Actualiza la rodaja de tiempo y al final de esta, ejecuta una interrupción de software
+ */
+static void actualizar_rodaja(){
+	
+}
 
 /*
  *

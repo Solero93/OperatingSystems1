@@ -43,9 +43,13 @@ int terminar_proceso(){
 int escribir(char *texto, unsigned int longi){
 	return llamsis(ESCRIBIR, 2, (long)texto, (long)longi);
 }
-int obtener_pid() {
-  	return llamsis(OBTENER_ID, 0);
+int get_pid() {
+  	return llamsis(GET_PID, 0);
 }
 int dormir(int tiempo) {
-	return llamsis(DORMIR,1, (long)tiempo);
+	return llamsis(DORMIR, 1, (long)tiempo);
+}
+// TODO Practica 2 - Yosoy
+int yosoy(){
+	return llamsis(YOSOY, 0);
 }

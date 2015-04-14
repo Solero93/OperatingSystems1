@@ -94,54 +94,6 @@ static void eliminar_elem(lista_BCPs *lista, BCP * proc){
 }
 
 /*
-* Practica 1 - Mostrar la llista de processos
-*/ 
-
-static void muestra_lista(lista_BCPs* lista){
-	BCP* head = lista->primero;
-	if (head == NULL){
-		printf("No hay procesos en la lista.");
-	}
-	while (head != NULL){
-		printk("-> Proceso id: %d , estado: %d \n", head->id, head->estado);
-		head = head->siguiente;
-	}
-}
-
-/*
-* Practica 1 - Bloquear proceso
-*/
-static void bloquear (lista_BCPs * lista){
-	BCP* head = lista_listos.primero;
-	eliminar_primero(&lista_listos);
-	insertar_ultimo(lista,head);
-
-	p_proc_actual = planificador();
-        cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
-		
-}
-/*
-* Practica 1 - Desbloquear procesos
-*/
-static void desbloquear (BCP* proc, lista_BCPs* lista){
-	eliminar_elem(lista, proc);
-	insertar_ultimo(&lista_listos, proc);	
-}
-/*
-* Practica 1 - Ajustar Dormidos
-*/
-static void ajustar_dormidos (){
-	BCP* head = lista_dormidos.primero;
-	while(head!=NULL){
-		(head->ticks) = (head->ticks) -1;
-		if ((head->ticks) <= 0){
-			desbloquear(head, &lista_dormidos);
-		}
-		head = head->siguiente;
-	}	
-}
-
-/*
  *
  * Funciones relacionadas con la planificacion
  *	espera_int planificador
@@ -168,6 +120,75 @@ static BCP * planificador(){
 	while (lista_listos.primero==NULL)
 		espera_int();		/* No hay nada que hacer */
 	return lista_listos.primero;
+}
+
+/*
+* Practica 1 - Mostrar la llista de processos
+*/ 
+
+static void muestra_lista(lista_BCPs* lista){
+	BCP* head = lista->primero;
+	if (head == NULL){
+		printf("No hay procesos en la lista.");
+	}
+	while (head != NULL){
+		printk("-> Proceso id: %d , rodaja: %d , vueltas: %d, estado: %d \n", head->id, head->rodaja, head->vueltas, head->estado);
+		head = head->siguiente;
+	}
+}
+
+/*
+* Practica 1 - Bloquear proceso
+*/
+static void bloquear (lista_BCPs * lista){
+	fijar_nivel_int(NIVEL_3);
+	BCP* head = lista_listos.primero;
+	eliminar_primero(&lista_listos);
+	insertar_ultimo(lista,head);
+
+	p_proc_actual = planificador();
+        cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
+}
+
+/*
+ * TODO Practica 2 - Cambios de contexto voluntarios e involuntarios
+ */
+static void cambio_proceso (lista_BCPs * lista){
+	fijar_nivel_int(NIVEL_3);
+	BCP* head = lista_listos.primero;
+	eliminar_primero(&lista_listos);
+	insertar_ultimo(lista,head);
+
+	p_proc_actual = planificador();
+        cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
+}
+
+/*
+* Practica 1 - Desbloquear procesos
+*/
+static void desbloquear (BCP* proc, lista_BCPs* lista){
+	eliminar_elem(lista, proc);
+	insertar_ultimo(&lista_listos, proc);	
+}
+/*
+* Practica 1 - Ajustar Dormidos
+*/
+static void ajustar_dormidos (){
+	BCP* head = lista_dormidos.primero;
+	while(head!=NULL){
+		(head->ticks) = (head->ticks) -1;
+		if ((head->ticks) <= 0){
+			desbloquear(head, &lista_dormidos);
+		}
+		head = head->siguiente;
+	}	
+}
+
+/*
+ * Practica 2 - Actualiza la rodaja de tiempo y al final de esta, ejecuta una interrupción de software
+ */
+static void actualizar_rodaja(){
+	
 }
 
 /*
@@ -375,10 +396,12 @@ int sis_terminar_proceso(){
  */
 int sis_dormir(){
 	long int num_ticks = (long int)leer_registro(1);
- 	num_ticks *= TICK;
-	lista_listos.primero->ticks = num_ticks;
-	bloquear(&lista_dormidos);
-
+ 	p_proc_actual = planificador();
+	if (p_proc_actual != NULL){
+		num_ticks *= TICK;
+		p_proc_actual->ticks = num_ticks;
+		bloquear(&lista_dormidos);
+	}
 	return 0;
 }
 
