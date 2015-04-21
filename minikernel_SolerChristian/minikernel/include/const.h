@@ -64,10 +64,9 @@
 #define TICK 100
 
 //Ticks por rodaja
-#define TICKS_POR_RODAJA 10 * TICK
+#define TICKS_POR_RODAJA 10
 
 /* dirección de puerto de E/S del terminal */
 #define DIR_TERMINAL 1
 
 #endif /* _CONST_H */
-

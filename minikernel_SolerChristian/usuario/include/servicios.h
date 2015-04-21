@@ -31,7 +31,6 @@ int terminar_proceso();
 int escribir(char *texto, unsigned int longi);
 int get_pid();
 int dormir(int tiempo);
-int yosoy();
 
 #endif /* SERVICIOS_H */
 

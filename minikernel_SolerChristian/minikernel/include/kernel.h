@@ -38,8 +38,8 @@ typedef struct BCP_t {
 	BCPptr siguiente;		/* puntero a otro BCP */
 	void *info_mem;			/* descriptor del mapa de memoria */
 	int ticks;			
-	int rodaja = TICKS_POR_RODAJA;	// Tiempo que le queda de la rodaja actual
-	int vueltas=0; //TODO POR AHORA PARA QUE NO PETE MOSTRAR_LISTA
+	int rodaja;	// Tiempo que le queda de la rodaja actual
+	int vueltas; 	//
 } BCP;
 
 /*
@@ -107,7 +107,6 @@ servicio tabla_servicios[NSERVICIOS]={	{sis_crear_proceso},
 					{sis_terminar_proceso},
 					{sis_escribir},
 					{get_pid},
-					{sis_dormir} 
-					{yosoy} };
+					{sis_dormir}};
 
 #endif /* _KERNEL_H */

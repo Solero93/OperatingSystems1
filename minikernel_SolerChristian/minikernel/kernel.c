@@ -170,6 +170,7 @@ static void desbloquear (BCP* proc, lista_BCPs* lista){
 	eliminar_elem(lista, proc);
 	insertar_ultimo(&lista_listos, proc);	
 }
+
 /*
 * Practica 1 - Ajustar Dormidos
 */
@@ -411,8 +412,6 @@ int sis_dormir(){
 int get_pid() {
   return p_proc_actual->id;
 }
-
-
 
 /*
  *
