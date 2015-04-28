@@ -33,4 +33,3 @@ int get_pid();
 int dormir(int tiempo);
 
 #endif /* SERVICIOS_H */
-

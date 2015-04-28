@@ -49,7 +49,3 @@ int get_pid() {
 int dormir(int tiempo) {
 	return llamsis(DORMIR, 1, (long)tiempo);
 }
-// TODO Practica 2 - Yosoy
-int yosoy(){
-	return llamsis(YOSOY, 0);
-}

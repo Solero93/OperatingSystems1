@@ -139,7 +139,7 @@ static void muestra_lista(lista_BCPs* lista){
 
 /*
 * Practica 1 - Bloquear proceso
-*/
+
 static void bloquear (lista_BCPs * lista){
 	fijar_nivel_int(NIVEL_3);
 	BCP* head = lista_listos.primero;
@@ -149,24 +149,39 @@ static void bloquear (lista_BCPs * lista){
 	p_proc_actual = planificador();
         cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
 }
+*/
 
 /*
  * TODO Practica 2 - Cambios de contexto voluntarios e involuntarios
+ * Antes se llamaba bloquear -> para dormir procesos
+ * Ahora debe hacer más cosas
  */
 static void cambio_proceso (lista_BCPs * lista){
 	fijar_nivel_int(NIVEL_3);
 	BCP* head = lista_listos.primero;
+
+	if(lista == &lista_dormidos){
+		(head->estado)=BLOQUEADO;
+		
+	} else { if(lista == &lista_listos){
+		(head->estado)=LISTO;
+		
+	} else { if(lista == NULL){
+		(head->estado)=TERMINADO;
+		
+	}}}
 	eliminar_primero(&lista_listos);
 	insertar_ultimo(lista,head);
-
-	p_proc_actual = planificador();
-        cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
+	
+	p_proc_actual = planificador();	
+	cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
 }
 
 /*
 * Practica 1 - Desbloquear procesos
 */
 static void desbloquear (BCP* proc, lista_BCPs* lista){
+	(proc->estado)=LISTO;
 	eliminar_elem(lista, proc);
 	insertar_ultimo(&lista_listos, proc);	
 }
@@ -182,14 +197,18 @@ static void ajustar_dormidos (){
 			desbloquear(head, &lista_dormidos);
 		}
 		head = head->siguiente;
-	}	
+	}
 }
 
 /*
  * TODO Practica 2 - Actualiza la rodaja de tiempo y al final de esta, ejecuta una interrupción de software
  */
 static void actualizar_rodaja(){
-	
+	BCP* head = lista_listos.primero;
+	(head->rodaja) = (head->rodaja)-1;
+	if ((head->rodaja)<=0){
+		activar_int_SW();
+	}
 }
 
 /*
@@ -273,6 +292,7 @@ static void int_terminal(){
  * Tratamiento de interrupciones de reloj
  */
 static void int_reloj(){
+	actualizar_rodaja();
 	ajustar_dormidos();	
 }
 
@@ -297,12 +317,14 @@ static void tratar_llamsis(){
 static void int_sw(){
 
 	printk("-> TRATANDO INT. SW\n");
+	
+	cambio_proceso(&lista_listos);
 
 	return;
 }
 
 /*
- *
+ 
  * Funcion auxiliar que crea un proceso reservando sus recursos.
  * Usada por llamada crear_proceso.
  *
@@ -401,7 +423,7 @@ int sis_dormir(){
 	if (p_proc_actual != NULL){
 		num_ticks *= TICK;
 		p_proc_actual->ticks = num_ticks;
-		bloquear(&lista_dormidos);
+		cambio_proceso(&lista_dormidos);
 	}
 	return 0;
 }
