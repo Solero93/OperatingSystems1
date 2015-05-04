@@ -63,8 +63,11 @@
 /* frecuencia de reloj requerida (ticks/segundo) */
 #define TICK 100
 
-//TODO Ticks por rodaja
-#define TICKS_POR_RODAJA 20
+//Ticks por rodaja
+#define TICKS_POR_RODAJA 2
+
+//Vueltas
+#define VUELTAS 3
 
 /* dirección de puerto de E/S del terminal */
 #define DIR_TERMINAL 1

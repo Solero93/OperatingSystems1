@@ -152,7 +152,7 @@ static void bloquear (lista_BCPs * lista){
 */
 
 /*
- * TODO Practica 2 - Cambios de contexto voluntarios e involuntarios
+ * Practica 2 - Cambios de contexto voluntarios e involuntarios
  * Antes se llamaba bloquear -> para dormir procesos
  * Ahora debe hacer más cosas
  */
@@ -170,18 +170,26 @@ static void cambio_proceso (lista_BCPs * lista){
 		(head->estado)=TERMINADO;
 		
 	}}}
+	
+	/*if((head->siguiente) == NULL){*/
+		(head->ticks) = TICKS_POR_RODAJA;
+	/*} else {
+		
+	}*/
+	
 	eliminar_primero(&lista_listos);
 	insertar_ultimo(lista,head);
 	
-	p_proc_actual = planificador();	
+	p_proc_actual = planificador();
 	cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
+	replanificacion_pendiente = 0;
 }
 
 /*
 * Practica 1 - Desbloquear procesos
 */
 static void desbloquear (BCP* proc, lista_BCPs* lista){
-	(proc->estado)=LISTO;
+	(proc->estado) = LISTO;
 	eliminar_elem(lista, proc);
 	insertar_ultimo(&lista_listos, proc);	
 }
@@ -201,12 +209,13 @@ static void ajustar_dormidos (){
 }
 
 /*
- * TODO Practica 2 - Actualiza la rodaja de tiempo y al final de esta, ejecuta una interrupción de software
+ * Practica 2 - Actualiza la rodaja de tiempo y al final de esta, ejecuta una interrupción de software
  */
 static void actualizar_rodaja(){
 	BCP* head = lista_listos.primero;
 	(head->rodaja) = (head->rodaja)-1;
 	if ((head->rodaja)<=0){
+		replanificacion_pendiente = 1;
 		activar_int_SW();
 	}
 }
@@ -317,8 +326,9 @@ static void tratar_llamsis(){
 static void int_sw(){
 
 	printk("-> TRATANDO INT. SW\n");
-	
-	cambio_proceso(&lista_listos);
+	if (replanificacion_pendiente == 1){ 
+		cambio_proceso(&lista_listos);
+	}
 
 	return;
 }
@@ -353,6 +363,8 @@ static int crear_tarea(char *prog){
 			&(p_proc->contexto_regs));
 		p_proc->id=proc;
 		p_proc->estado=LISTO;
+		p_proc->rodaja=TICKS_POR_RODAJA;
+		p_proc->vueltas=VUELTAS;
 
 		/* lo inserta al final de cola de listos */
 		insertar_ultimo(&lista_listos, p_proc);

@@ -34,7 +34,7 @@ typedef struct BCP_t {
         int id;				/* ident. del proceso */
         int estado;			/* TERMINADO|LISTO|EJECUCION|BLOQUEADO*/
         contexto_t contexto_regs;	/* copia de regs. de UCP */
-        void * pila;			/* dir. inicial de la pila */
+        void *pila;			/* dir. inicial de la pila */
 	BCPptr siguiente;		/* puntero a otro BCP */
 	void *info_mem;			/* descriptor del mapa de memoria */
 	int ticks;
@@ -98,7 +98,7 @@ int sis_escribir();
 int get_pid();
 int sis_dormir();
 
-int replanificacion_pendiente = 0; //TODO 0 -> no hay pendiente, 1 -> hay planificación pendiente 
+int replanificacion_pendiente = 0; // 0 -> no hay pendiente, 1 -> hay planificación pendiente 
   
 /*
  * Variable global que contiene las rutinas que realizan cada llamada
