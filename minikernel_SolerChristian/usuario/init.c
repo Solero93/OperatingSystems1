@@ -20,6 +20,9 @@ int main(){
 
 	if (crear_proceso("dormilon")<0)
 	 	printf("Error creando este proceso\n");
+/*	
+	if (crear_proceso("yosoy") < 0) 
+	  	printf("Error creando yosoy\n"); 
 	if (crear_proceso("yosoy") < 0)
 	  	printf("Error creando yosoy\n");
 	if (crear_proceso("yosoy") < 0)
@@ -41,10 +44,8 @@ int main(){
 	if (crear_proceso("yosoy") < 0)
 	  	printf("Error creando yosoy\n");
 	if (crear_proceso("yosoy") < 0)
-	  	printf("Error creando yosoy\n");
-	if (crear_proceso("yosoy") < 0)
-	  	printf("Error creando yosoy\n");
-	
+	  	printf("Error creando yosoy\n"); */
+
 	
 	
 /* Son los procesos de ejemplo iniciales, solo molestan en las pruebas

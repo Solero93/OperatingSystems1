@@ -60,8 +60,17 @@ static void insertar_ultimo(lista_BCPs *lista, BCP * proc){
 		lista->primero= proc;
 	else
 		lista->ultimo->siguiente=proc;
-	lista->ultimo= proc;
+	lista->ultimo = proc;
 	proc->siguiente=NULL;
+}
+
+static void insertar_segundo(lista_BCPs *lista, BCP * proc){
+	if (lista->primero==NULL){
+		lista->primero = proc;
+	} else {
+		(proc->siguiente) = (lista->primero->siguiente);
+		(lista->primero->siguiente) = (proc->siguiente);
+	}
 }
 
 /*
@@ -132,7 +141,7 @@ static void muestra_lista(lista_BCPs* lista){
 		printf("No hay procesos en la lista.");
 	}
 	while (head != NULL){
-		printk("-> Proceso id: %d , rodaja: %d , vueltas: %d, estado: %d \n", head->id, head->rodaja, head->vueltas, head->estado);
+		printk("-> Proceso id: %d , ticks: %d, rodaja: %d , vueltas: %d, estado: %d \n", head->id, head->ticks, head->rodaja, head->vueltas, head->estado);
 		head = head->siguiente;
 	}
 }
@@ -162,26 +171,35 @@ static void cambio_proceso (lista_BCPs * lista){
 
 	if(lista == &lista_dormidos){
 		(head->estado)=BLOQUEADO;
-		
-	} else { if(lista == &lista_listos){
-		(head->estado)=LISTO;
-		
-	} else { if(lista == NULL){
-		(head->estado)=TERMINADO;
-		
-	}}}
-	
-	/*if((head->siguiente) == NULL){*/
-		(head->ticks) = TICKS_POR_RODAJA;
-	/*} else {
-		
-	}*/
-	
+	} else { 
+		if(lista == &lista_listos){
+			(head->estado)=LISTO;
+			if((head->siguiente) == NULL){
+				(head->rodaja) = TICKS_POR_RODAJA;
+			} else {
+				(head->vueltas) = (head->vueltas)+1;
+				if ((head->vueltas) >= VUELTAS_MAX){
+					(head->vueltas) = VUELTAS_INIT;
+					long int num_ticks = (long int)leer_registro(1);
+					num_ticks *= (TICKS_POR_RODAJA * 3) / 4;
+					(head->ticks) = num_ticks;
+					(head->estado) = BLOQUEADO;
+				} else {
+					(head->rodaja) = TICKS_POR_RODAJA / 2;
+				}
+			}
+		} else {
+			if(lista == NULL){
+				(head->estado)=TERMINADO;
+			}
+		}
+	}
+
 	eliminar_primero(&lista_listos);
 	insertar_ultimo(lista,head);
 	
 	p_proc_actual = planificador();
-	cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
+	cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));	
 	replanificacion_pendiente = 0;
 }
 
@@ -191,7 +209,12 @@ static void cambio_proceso (lista_BCPs * lista){
 static void desbloquear (BCP* proc, lista_BCPs* lista){
 	(proc->estado) = LISTO;
 	eliminar_elem(lista, proc);
-	insertar_ultimo(&lista_listos, proc);	
+	if ((proc->rodaja) > 0){
+		insertar_segundo(&lista_listos, proc);
+	} else {
+		(proc->rodaja) = TICKS_POR_RODAJA;
+		insertar_ultimo(&lista_listos, proc);
+	}
 }
 
 /*
@@ -199,8 +222,10 @@ static void desbloquear (BCP* proc, lista_BCPs* lista){
 */
 static void ajustar_dormidos (){
 	BCP* head = lista_dormidos.primero;
-	while(head!=NULL){
-		(head->ticks) = (head->ticks) -1;
+	muestra_lista(&lista_dormidos);
+	while(head != NULL){
+		muestra_lista(&lista_dormidos);
+		(head->ticks) = (head->ticks)-1;
 		if ((head->ticks) <= 0){
 			desbloquear(head, &lista_dormidos);
 		}
@@ -212,9 +237,9 @@ static void ajustar_dormidos (){
  * Practica 2 - Actualiza la rodaja de tiempo y al final de esta, ejecuta una interrupción de software
  */
 static void actualizar_rodaja(){
-	BCP* head = lista_listos.primero;
-	(head->rodaja) = (head->rodaja)-1;
-	if ((head->rodaja)<=0){
+	p_proc_actual = planificador();
+	(p_proc_actual->rodaja) = (p_proc_actual->rodaja)-1;
+	if ((p_proc_actual->rodaja)<=0){
 		replanificacion_pendiente = 1;
 		activar_int_SW();
 	}
@@ -302,7 +327,7 @@ static void int_terminal(){
  */
 static void int_reloj(){
 	actualizar_rodaja();
-	ajustar_dormidos();	
+	ajustar_dormidos();
 }
 
 /*
@@ -364,7 +389,7 @@ static int crear_tarea(char *prog){
 		p_proc->id=proc;
 		p_proc->estado=LISTO;
 		p_proc->rodaja=TICKS_POR_RODAJA;
-		p_proc->vueltas=VUELTAS;
+		p_proc->vueltas=VUELTAS_INIT;
 
 		/* lo inserta al final de cola de listos */
 		insertar_ultimo(&lista_listos, p_proc);
@@ -418,7 +443,6 @@ int sis_escribir()
  * funcion auxiliar liberar_proceso
  */
 int sis_terminar_proceso(){
-
 	printk("-> FIN PROCESO %d\n", p_proc_actual->id);
 
 	liberar_proceso();

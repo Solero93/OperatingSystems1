@@ -64,10 +64,11 @@
 #define TICK 100
 
 //Ticks por rodaja
-#define TICKS_POR_RODAJA 2
+#define TICKS_POR_RODAJA 10
 
 //Vueltas
-#define VUELTAS 3
+#define VUELTAS_INIT 0
+#define VUELTAS_MAX 3
 
 /* dirección de puerto de E/S del terminal */
 #define DIR_TERMINAL 1

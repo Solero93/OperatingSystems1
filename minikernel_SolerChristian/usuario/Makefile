@@ -47,7 +47,7 @@ get_pid: get_pid.o $(BIBLIOTECA)
 dormilon.o: $(INCLUDEDIR)/servicios.h
 dormilon: dormilon.o $(BIBLIOTECA)
 	$(CC) -shared -o $@ dormilon.o -L$(LIBDIR) -lserv
-	
+
 yosoy.o: $(INCLUDEDIR)/servicios.h
 yosoy: yosoy.o $(BIBLIOTECA)
 	$(CC) -shared -o $@ yosoy.o -L$(LIBDIR) -lserv
