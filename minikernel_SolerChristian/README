@@ -1,14 +1,18 @@
 Nom : Christian José Soler
 DNI: Y0362369-H
 NIUB: 16314292
+				PRACTICA 2 - RR
+
+Per executar el programa he fet un script de bash run.sh que fa el make i imprimeix el resultat directament.
+
+Executar:
+$ sh run.sh
 
 Comentaris de la pràctica:
+- Per provar la planificacio round-robin de llesca variable creo un procés dormilon i unes quantes de get_pid
 
-A la prova de dormilon.c el que fem és
-- Imprimir el missatge "1st message"
-- Esperar 1 segon
-- Imprimir missatge "2nd message"
-- Esperar 2 segons
-- Imprimir missatge "3rd message"
-
-Totes les interrupcions estàn desactivades quan bloquejem per si es premés alguna tecla i no es pogués bloquejar el procés que volem.  
+Coses que s'han fet a aquesta pràctica:
+- canviat bloquear a cambio_proceso
+- creat actualizar_rodaja
+- creat insertar_segundo.
+- adaptat les funcions per la planificació round-robin. 

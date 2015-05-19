@@ -64,12 +64,18 @@ static void insertar_ultimo(lista_BCPs *lista, BCP * proc){
 	proc->siguiente=NULL;
 }
 
+/*
+ * Inserta un BCP en la segundo posicion.
+ */
 static void insertar_segundo(lista_BCPs *lista, BCP * proc){
 	if (lista->primero==NULL){
-		lista->primero = proc;
+		insertar_ultimo(lista,proc);
 	} else {
 		(proc->siguiente) = (lista->primero->siguiente);
 		(lista->primero->siguiente) = (proc->siguiente);
+		if (proc->siguiente == NULL){
+			lista->ultimo = proc;
+		}
 	}
 }
 
@@ -147,18 +153,17 @@ static void muestra_lista(lista_BCPs* lista){
 }
 
 /*
-* Practica 1 - Bloquear proceso
-
-static void bloquear (lista_BCPs * lista){
-	fijar_nivel_int(NIVEL_3);
-	BCP* head = lista_listos.primero;
-	eliminar_primero(&lista_listos);
-	insertar_ultimo(lista,head);
-
-	p_proc_actual = planificador();
-        cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));
+ *
+ * Funcion auxiliar que termina proceso actual liberando sus recursos.
+ * Usada por llamada terminar_proceso y por rutinas que tratan excepciones
+ *
+ */
+static void liberar_proceso(){
+	cambio_proceso(NULL);
+	
+        return; /* no debería llegar aqui */
 }
-*/
+
 
 /*
  * Practica 2 - Cambios de contexto voluntarios e involuntarios
@@ -167,40 +172,36 @@ static void bloquear (lista_BCPs * lista){
  */
 static void cambio_proceso (lista_BCPs * lista){
 	fijar_nivel_int(NIVEL_3);
-	BCP* head = lista_listos.primero;
-
+	
+	eliminar_primero(&lista_listos);
+	
+	BCP* proc = p_proc_actual;
+	replanificacion_pendiente = 0;
+	
+	p_proc_actual = planificador();
+	(p_proc_actual->estado) = EJECUCION;
+	
 	if(lista == &lista_dormidos){
-		(head->estado)=BLOQUEADO;
+		(proc->estado)=BLOQUEADO;
+		insertar_ultimo(lista,proc);
 	} else { 
 		if(lista == &lista_listos){
-			(head->estado)=LISTO;
-			if((head->siguiente) == NULL){
-				(head->rodaja) = TICKS_POR_RODAJA;
-			} else {
-				(head->vueltas) = (head->vueltas)+1;
-				if ((head->vueltas) >= VUELTAS_MAX){
-					(head->vueltas) = VUELTAS_INIT;
-					long int num_ticks = (long int)leer_registro(1);
-					num_ticks *= (TICKS_POR_RODAJA * 3) / 4;
-					(head->ticks) = num_ticks;
-					(head->estado) = BLOQUEADO;
-				} else {
-					(head->rodaja) = TICKS_POR_RODAJA / 2;
-				}
-			}
+			(proc->estado)=LISTO;
+			insertar_ultimo(lista,proc);
 		} else {
 			if(lista == NULL){
-				(head->estado)=TERMINADO;
+				(proc->estado)=TERMINADO;
+				liberar_imagen(proc->info_mem); /* liberar mapa */
+				liberar_pila(proc->pila);
+				// VIGILAR CON CAMBIO DE PROCESO -> es diferente
 			}
 		}
 	}
-
-	eliminar_primero(&lista_listos);
-	insertar_ultimo(lista,head);
 	
-	p_proc_actual = planificador();
-	cambio_contexto(&(head->contexto_regs), &(p_proc_actual->contexto_regs));	
-	replanificacion_pendiente = 0;
+	printk("-> C.CONTEXTO POR FIN: de %d a %d\n",
+		proc->id, p_proc_actual->id);
+
+	cambio_contexto(&(proc->contexto_regs), &(p_proc_actual->contexto_regs));
 }
 
 /*
@@ -222,14 +223,13 @@ static void desbloquear (BCP* proc, lista_BCPs* lista){
 */
 static void ajustar_dormidos (){
 	BCP* head = lista_dormidos.primero;
-	muestra_lista(&lista_dormidos);
 	while(head != NULL){
-		muestra_lista(&lista_dormidos);
 		(head->ticks) = (head->ticks)-1;
-		if ((head->ticks) <= 0){
+		BCP* head2 = head->siguiente;
+		if ((head->ticks) == 0){
 			desbloquear(head, &lista_dormidos);
 		}
-		head = head->siguiente;
+		head = head2;
 	}
 }
 
@@ -237,39 +237,15 @@ static void ajustar_dormidos (){
  * Practica 2 - Actualiza la rodaja de tiempo y al final de esta, ejecuta una interrupción de software
  */
 static void actualizar_rodaja(){
-	p_proc_actual = planificador();
-	(p_proc_actual->rodaja) = (p_proc_actual->rodaja)-1;
-	if ((p_proc_actual->rodaja)<=0){
-		replanificacion_pendiente = 1;
-		activar_int_SW();
+	if (p_proc_actual != NULL){
+		(p_proc_actual->rodaja) = (p_proc_actual->rodaja)-1;
+		if ((p_proc_actual->rodaja)<=0){
+			replanificacion_pendiente = 1;
+			activar_int_SW();
+		}
 	}
 }
 
-/*
- *
- * Funcion auxiliar que termina proceso actual liberando sus recursos.
- * Usada por llamada terminar_proceso y por rutinas que tratan excepciones
- *
- */
-static void liberar_proceso(){
-	BCP * p_proc_anterior;
-
-	liberar_imagen(p_proc_actual->info_mem); /* liberar mapa */
-
-	p_proc_actual->estado=TERMINADO;
-	eliminar_primero(&lista_listos); /* proc. fuera de listos */
-
-	/* Realizar cambio de contexto */
-	p_proc_anterior=p_proc_actual;
-	p_proc_actual=planificador();
-
-	printk("-> C.CONTEXTO POR FIN: de %d a %d\n",
-			p_proc_anterior->id, p_proc_actual->id);
-
-	liberar_pila(p_proc_anterior->pila);
-	cambio_contexto(NULL, &(p_proc_actual->contexto_regs));
-        return; /* no debería llegar aqui */
-}
 
 /*
  *
@@ -325,7 +301,8 @@ static void int_terminal(){
 /*
  * Tratamiento de interrupciones de reloj
  */
-static void int_reloj(){
+static void int_reloj(){  
+	printk("-> TRATANDO INT. DE reloj \n");
 	actualizar_rodaja();
 	ajustar_dormidos();
 }
@@ -351,10 +328,25 @@ static void tratar_llamsis(){
 static void int_sw(){
 
 	printk("-> TRATANDO INT. SW\n");
-	if (replanificacion_pendiente == 1){ 
-		cambio_proceso(&lista_listos);
+	if (replanificacion_pendiente == 1){
+		if((p_proc_actual->siguiente) == NULL){
+			(p_proc_actual->rodaja) = TICKS_POR_RODAJA;
+		} else {
+			
+			(p_proc_actual->vueltas) = (p_proc_actual->vueltas) + 1;
+			
+			if ((p_proc_actual->vueltas) >= VUELTAS_MAX){
+				(p_proc_actual->vueltas) = VUELTAS_INIT;
+				(p_proc_actual->ticks) = (TICKS_POR_RODAJA * 3) / 4;
+				cambio_proceso(&lista_dormidos);
+			
+			  
+			} else {
+				(p_proc_actual->rodaja) = TICKS_POR_RODAJA / 2;
+				cambio_proceso(&lista_listos);
+			}
+		}
 	}
-
 	return;
 }
 
