@@ -144,11 +144,55 @@ static BCP * planificador(){
 static void muestra_lista(lista_BCPs* lista){
 	BCP* head = lista->primero;
 	if (head == NULL){
-		printf("No hay procesos en la lista.");
+		printk("No hay procesos en la lista.\n");
 	}
 	while (head != NULL){
 		printk("-> Proceso id: %d , ticks: %d, rodaja: %d , vueltas: %d, estado: %d \n", head->id, head->ticks, head->rodaja, head->vueltas, head->estado);
 		head = head->siguiente;
+	}
+}
+
+/*
+ * Practica 2 - Cambios de contexto voluntarios e involuntarios
+ * Antes se llamaba bloquear -> para dormir procesos
+ * Ahora debe hacer más cosas
+ */
+static void cambio_proceso (lista_BCPs* lista){
+	fijar_nivel_int(NIVEL_3);
+	
+	BCP* proc = p_proc_actual;
+	
+	if (lista==NULL){
+		liberar_imagen(proc->info_mem); /* liberar mapa */
+	}
+	
+	eliminar_primero(&lista_listos);
+	
+	if(lista == &lista_dormidos){
+		(proc->estado)=BLOQUEADO;
+		insertar_ultimo(lista,proc);
+	} else {
+		if(lista == &lista_listos){
+			(proc->estado)=LISTO;
+			insertar_ultimo(lista,proc);
+		} else {
+			if(lista == NULL){
+				(proc->estado)=TERMINADO;
+				liberar_pila(proc->pila);
+			}
+		}
+	}
+	
+	p_proc_actual = planificador();
+	(p_proc_actual->estado) = EJECUCION;
+	
+	printk("-> C.CONTEXTO POR FIN: de %d a %d\n",
+		proc->id, p_proc_actual->id);
+	
+	if (lista != NULL){
+		cambio_contexto(&(proc->contexto_regs), &(p_proc_actual->contexto_regs));
+	} else {
+		cambio_contexto(NULL, &(p_proc_actual->contexto_regs));
 	}
 }
 
@@ -160,48 +204,6 @@ static void muestra_lista(lista_BCPs* lista){
  */
 static void liberar_proceso(){
 	cambio_proceso(NULL);
-	
-        return; /* no debería llegar aqui */
-}
-
-
-/*
- * Practica 2 - Cambios de contexto voluntarios e involuntarios
- * Antes se llamaba bloquear -> para dormir procesos
- * Ahora debe hacer más cosas
- */
-static void cambio_proceso (lista_BCPs * lista){
-	fijar_nivel_int(NIVEL_3);
-	
-	eliminar_primero(&lista_listos);
-	
-	BCP* proc = p_proc_actual;
-	replanificacion_pendiente = 0;
-	
-	p_proc_actual = planificador();
-	(p_proc_actual->estado) = EJECUCION;
-	
-	if(lista == &lista_dormidos){
-		(proc->estado)=BLOQUEADO;
-		insertar_ultimo(lista,proc);
-	} else { 
-		if(lista == &lista_listos){
-			(proc->estado)=LISTO;
-			insertar_ultimo(lista,proc);
-		} else {
-			if(lista == NULL){
-				(proc->estado)=TERMINADO;
-				liberar_imagen(proc->info_mem); /* liberar mapa */
-				liberar_pila(proc->pila);
-				// VIGILAR CON CAMBIO DE PROCESO -> es diferente
-			}
-		}
-	}
-	
-	printk("-> C.CONTEXTO POR FIN: de %d a %d\n",
-		proc->id, p_proc_actual->id);
-
-	cambio_contexto(&(proc->contexto_regs), &(p_proc_actual->contexto_regs));
 }
 
 /*

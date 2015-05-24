@@ -1,5 +1,3 @@
-minikernel_SolerChristian/boot/
-
 minikernel_SolerChristian/minikernel/kernel.o
 minikernel_SolerChristian/minikernel/kernel
 
@@ -12,7 +10,7 @@ minikernel_SolerChristian/usuario/init
 minikernel_SolerChristian/usuario/simplon
 minikernel_SolerChristian/usuario/yosoy
 
-minikernel_SolerChristian/usuario/lib/*.o
+minikernel_SolerChristian/usuario/lib/serv.o
 
 /*
   Ignore swap files

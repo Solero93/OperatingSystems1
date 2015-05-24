@@ -17,7 +17,7 @@
 int main(){
 
 	printf("init: comienza\n");
-
+	
 	if (crear_proceso("dormilon")<0)
 	 	printf("Error creando este proceso\n");
 	if (crear_proceso("yosoy") < 0) 

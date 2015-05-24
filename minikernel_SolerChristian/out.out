@@ -8,331 +8,2208 @@ init: comienza
 init: termina
 -> FIN PROCESO 0
 -> C.CONTEXTO POR FIN: de 0 a 1
+
+
+
 1st Message
-yosoy: pid = 2
-yosoy: pid = 2
--> TRATANDO INT. DE reloj 
-yosoy: pid = 2
-yosoy: pid = 2
--> TRATANDO INT. DE reloj 
-yosoy: pid = 2
-yosoy: pid = 2
--> TRATANDO INT. DE reloj 
-yosoy: pid = 2
-yosoy: pid = 2
--> TRATANDO INT. DE reloj 
-yosoy: pid = 2
-yosoy: pid = 2
--> TRATANDO INT. DE reloj 
-yosoy: pid = 2
-yosoy: pid = 2
--> TRATANDO INT. DE reloj 
-yosoy: pid = 2
-yosoy: pid = 2
--> TRATANDO INT. DE reloj 
+
+
+-> C.CONTEXTO POR FIN: de 1 a 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 100, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 9 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 99, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 8 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 98, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 7 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 97, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 6 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 96, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 95, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 4 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 94, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 3 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 93, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 2 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 92, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 1 , vueltas: 0, estado: 2 
+-> Proceso id: 3 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 91, rodaja: 10 , vueltas: 0, estado: 3 
 -> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 2 a 3
+
+
+
 1st Message
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
+
+
+-> C.CONTEXTO POR FIN: de 3 a 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 90, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 100, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 9 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 89, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 99, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 8 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 88, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 98, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 7 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 87, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 97, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 6 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 86, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 96, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 85, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 95, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 4 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 84, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 94, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 3 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 83, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 93, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 2 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 82, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 92, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 1 , vueltas: 0, estado: 2 
+-> Proceso id: 5 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 81, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 91, rodaja: 10 , vueltas: 0, estado: 3 
 -> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 4 a 5
+
+
+
 1st Message
+
+
+-> C.CONTEXTO POR FIN: de 5 a 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 80, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 90, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 100, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 9 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 79, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 89, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 99, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
-yosoy: pid = 6
-yosoy: pid = 6
-yosoy: pid = 6
--> TRATANDO INT. DE reloj 
-yosoy: pid = 6
-yosoy: pid = 6
-yosoy: pid = 6
-yosoy: pid = 6
--> TRATANDO INT. DE reloj 
-yosoy: pid = 6
-yosoy: pid = 6
-yosoy: pid = 6
--> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 8 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 78, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 88, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 98, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 7 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 77, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 87, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 97, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 6 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 76, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 86, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 96, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 75, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 85, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 95, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 4 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 74, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 84, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 94, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 3 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 73, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 83, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 93, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 2 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 72, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 82, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 92, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 1 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 71, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 81, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 91, rodaja: 10 , vueltas: 0, estado: 3 
 -> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 6 a 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 70, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 80, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 90, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 4 , vueltas: 1, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 69, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 79, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 89, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 3 , vueltas: 1, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 68, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 78, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 88, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 2 , vueltas: 1, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 67, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 77, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 87, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 1 , vueltas: 1, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 66, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 76, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 86, rodaja: 10 , vueltas: 0, estado: 3 
 -> TRATANDO INT. SW
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
-yosoy: pid = 4
--> TRATANDO INT. DE reloj 
+-> C.CONTEXTO POR FIN: de 2 a 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 65, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 75, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 85, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 4 , vueltas: 1, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 64, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 74, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 84, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 3 , vueltas: 1, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 63, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 73, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 83, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 yosoy: pid = 4
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 2 , vueltas: 1, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 62, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 72, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 82, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 1 , vueltas: 1, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 61, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 71, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 81, rodaja: 10 , vueltas: 0, estado: 3 
 -> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 4 a 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 60, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 70, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 80, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 4 , vueltas: 1, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 59, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 69, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 79, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 3 , vueltas: 1, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 58, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 68, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 78, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 2 , vueltas: 1, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 57, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 67, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 77, rodaja: 10 , vueltas: 0, estado: 3 
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 1 , vueltas: 1, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 56, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 66, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 76, rodaja: 10 , vueltas: 0, estado: 3 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 6 a 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 55, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 65, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 75, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 4 , vueltas: 2, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 54, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 64, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 74, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 3 , vueltas: 2, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 53, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 63, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 73, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 2 , vueltas: 2, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 52, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 62, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 72, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 1 , vueltas: 2, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 51, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 61, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 71, rodaja: 10 , vueltas: 0, estado: 3 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 2 a 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 50, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 60, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 70, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 2 , ticks: 7, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 4 , vueltas: 2, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 49, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 59, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 69, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 2 , ticks: 6, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 3 , vueltas: 2, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 48, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 58, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 68, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 2 , ticks: 5, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 2 , vueltas: 2, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 47, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 57, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 67, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 2 , ticks: 4, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 1 , vueltas: 2, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 46, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 56, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 66, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 2 , ticks: 3, rodaja: 0 , vueltas: 0, estado: 3 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 4 a 6
 yosoy: pid = 6
 yosoy: pid = 6
 yosoy: pid = 6
 -> TRATANDO INT. DE reloj 
--> FIN PROCESO 6
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 2, estado: 2 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 45, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 55, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 65, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 2 , ticks: 2, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 4 , ticks: 7, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 4 , vueltas: 2, estado: 2 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 44, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 54, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 64, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 2 , ticks: 1, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 4 , ticks: 6, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 3 , vueltas: 2, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 43, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 53, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 63, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 4 , ticks: 5, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 2 , vueltas: 2, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 42, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 52, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 62, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 4 , ticks: 4, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 1 , vueltas: 2, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 41, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 51, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 61, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 4 , ticks: 3, rodaja: 0 , vueltas: 0, estado: 3 
+-> TRATANDO INT. SW
 -> C.CONTEXTO POR FIN: de 6 a 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 2 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 40, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 50, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 60, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 4 , ticks: 2, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 6 , ticks: 7, rodaja: 0 , vueltas: 0, estado: 3 
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 9 , vueltas: 0, estado: 2 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 39, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 49, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 59, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 4 , ticks: 1, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 6 , ticks: 6, rodaja: 0 , vueltas: 0, estado: 3 
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 yosoy: pid = 2
 -> TRATANDO INT. DE reloj 
--> FIN PROCESO 2
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 8 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 38, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 48, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 58, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 6 , ticks: 5, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 7 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 37, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 47, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 57, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 6 , ticks: 4, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 6 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 36, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 46, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 56, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 6 , ticks: 3, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 35, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 45, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 55, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 6 , ticks: 2, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 4 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 34, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 44, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 54, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 6 , ticks: 1, rodaja: 0 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 3 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 33, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 43, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 53, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 2 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 32, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 42, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 52, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 2 , ticks: 0, rodaja: 1 , vueltas: 0, estado: 2 
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 31, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 41, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 51, rodaja: 10 , vueltas: 0, estado: 3 
+-> TRATANDO INT. SW
 -> C.CONTEXTO POR FIN: de 2 a 4
 yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 30, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 40, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 50, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 9 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 29, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 39, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 49, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 8 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 28, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 38, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 48, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 7 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 27, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 37, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 47, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 6 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 26, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 36, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 46, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 5 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 25, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 35, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 45, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 4 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 24, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 34, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 44, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 4 , ticks: 0, rodaja: 3 , vueltas: 0, estado: 2 
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 1 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 23, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 33, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 43, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 4
 -> FIN PROCESO 4
+-> C.CONTEXTO POR FIN: de 4 a 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 10 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 22, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 32, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 42, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 9 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 21, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 31, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 41, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 8 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 20, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 30, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 40, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 7 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 19, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 29, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 39, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 6 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 18, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 28, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 38, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 5 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 17, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 27, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 37, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 4 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 16, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 26, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 36, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+LISTOS:
+-> Proceso id: 6 , ticks: 0, rodaja: 3 , vueltas: 0, estado: 2 
+-> Proceso id: 2 , ticks: 0, rodaja: 5 , vueltas: 1, estado: 1 
+DORMIDOS:
+-> Proceso id: 1 , ticks: 15, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 25, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 35, rodaja: 10 , vueltas: 0, estado: 3 
+yosoy: pid = 6
+yosoy: pid = 6
+-> FIN PROCESO 6
+-> C.CONTEXTO POR FIN: de 6 a 2
+-> FIN PROCESO 2
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 14, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 24, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 34, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 13, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 23, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 33, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 12, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 22, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 32, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 11, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 21, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 31, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 10, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 20, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 30, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 9, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 19, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 29, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 8, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 18, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 28, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 7, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 17, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 27, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 6, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 16, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 26, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 5, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 15, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 25, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 4, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 14, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 24, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 3, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 13, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 23, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 2, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 12, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 22, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> NO HAY LISTOS. ESPERA INT
--> TRATANDO INT. DE reloj 
--> C.CONTEXTO POR FIN: de 4 a 1
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 1, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 11, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 21, rodaja: 10 , vueltas: 0, estado: 3 
+-> C.CONTEXTO POR FIN: de 2 a 1
 -> TRATANDO INT. SW
+
+
+
 2nd Message
+
+
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 10, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 20, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 100, rodaja: 10 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 9, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 19, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 99, rodaja: 9 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 8, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 18, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 98, rodaja: 8 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
 -> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 7, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 17, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 97, rodaja: 7 , vueltas: 0, estado: 3 
 -> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 6, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 16, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 96, rodaja: 6 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 5, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 15, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 95, rodaja: 5 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 4, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 14, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 94, rodaja: 4 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 3, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 13, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 93, rodaja: 3 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 2, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 12, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 92, rodaja: 2 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 1, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 11, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 91, rodaja: 1 , vueltas: 0, estado: 3 
+-> C.CONTEXTO POR FIN: de 1 a 3
+-> TRATANDO INT. SW
+
+
+
+2nd Message
+
+
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 10, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 90, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 100, rodaja: 10 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 9, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 89, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 99, rodaja: 9 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 8, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 88, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 98, rodaja: 8 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 7, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 87, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 97, rodaja: 7 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 6, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 86, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 96, rodaja: 6 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 5, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 85, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 95, rodaja: 5 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 4, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 84, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 94, rodaja: 4 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 3, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 83, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 93, rodaja: 3 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 2, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 82, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 92, rodaja: 2 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 1, rodaja: 10 , vueltas: 0, estado: 3 
+-> Proceso id: 1 , ticks: 81, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 91, rodaja: 1 , vueltas: 0, estado: 3 
+-> C.CONTEXTO POR FIN: de 3 a 5
+-> TRATANDO INT. SW
+
+
+
+2nd Message
+
+
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 80, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 90, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 100, rodaja: 10 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 79, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 89, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 99, rodaja: 9 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 78, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 88, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 98, rodaja: 8 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 77, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 87, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 97, rodaja: 7 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 76, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 86, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 96, rodaja: 6 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 75, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 85, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 95, rodaja: 5 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 74, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 84, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 94, rodaja: 4 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 73, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 83, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 93, rodaja: 3 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 72, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 82, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 92, rodaja: 2 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 71, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 81, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 91, rodaja: 1 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 70, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 80, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 90, rodaja: 0 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 69, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 79, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 89, rodaja: -1 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 68, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 78, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 88, rodaja: -2 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 67, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 77, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 87, rodaja: -3 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 66, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 76, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 86, rodaja: -4 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 65, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 75, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 85, rodaja: -5 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 64, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 74, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 84, rodaja: -6 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 63, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 73, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 83, rodaja: -7 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 62, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 72, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 82, rodaja: -8 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 61, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 71, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 81, rodaja: -9 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 60, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 70, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 80, rodaja: -10 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 59, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 69, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 79, rodaja: -11 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 58, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 68, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 78, rodaja: -12 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 57, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 67, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 77, rodaja: -13 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 56, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 66, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 76, rodaja: -14 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 55, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 65, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 75, rodaja: -15 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 54, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 64, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 74, rodaja: -16 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 53, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 63, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 73, rodaja: -17 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 52, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 62, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 72, rodaja: -18 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 51, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 61, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 71, rodaja: -19 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 50, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 60, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 70, rodaja: -20 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 49, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 59, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 69, rodaja: -21 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 48, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 58, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 68, rodaja: -22 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 47, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 57, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 67, rodaja: -23 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 46, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 56, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 66, rodaja: -24 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 45, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 55, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 65, rodaja: -25 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 44, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 54, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 64, rodaja: -26 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 43, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 53, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 63, rodaja: -27 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 42, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 52, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 62, rodaja: -28 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 41, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 51, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 61, rodaja: -29 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 40, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 50, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 60, rodaja: -30 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 39, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 49, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 59, rodaja: -31 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 38, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 48, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 58, rodaja: -32 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 37, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 47, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 57, rodaja: -33 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 36, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 46, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 56, rodaja: -34 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 35, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 45, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 55, rodaja: -35 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 34, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 44, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 54, rodaja: -36 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 33, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 43, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 53, rodaja: -37 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 32, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 42, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 52, rodaja: -38 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 31, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 41, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 51, rodaja: -39 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 30, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 40, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 50, rodaja: -40 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 29, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 39, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 49, rodaja: -41 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 28, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 38, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 48, rodaja: -42 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 27, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 37, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 47, rodaja: -43 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 26, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 36, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 46, rodaja: -44 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 25, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 35, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 45, rodaja: -45 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 24, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 34, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 44, rodaja: -46 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 23, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 33, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 43, rodaja: -47 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 22, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 32, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 42, rodaja: -48 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 21, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 31, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 41, rodaja: -49 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 20, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 30, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 40, rodaja: -50 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 19, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 29, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 39, rodaja: -51 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 18, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 28, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 38, rodaja: -52 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 17, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 27, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 37, rodaja: -53 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 16, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 26, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 36, rodaja: -54 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 15, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 25, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 35, rodaja: -55 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 14, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 24, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 34, rodaja: -56 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 13, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 23, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 33, rodaja: -57 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 12, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 22, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 32, rodaja: -58 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 11, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 21, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 31, rodaja: -59 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 10, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 20, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 30, rodaja: -60 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 9, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 19, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 29, rodaja: -61 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 8, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 18, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 28, rodaja: -62 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 7, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 17, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 27, rodaja: -63 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 6, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 16, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 26, rodaja: -64 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 5, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 15, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 25, rodaja: -65 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 4, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 14, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 24, rodaja: -66 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 3, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 13, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 23, rodaja: -67 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 2, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 12, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 22, rodaja: -68 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 1 , ticks: 1, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 3 , ticks: 11, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 21, rodaja: -69 , vueltas: 0, estado: 3 
+-> C.CONTEXTO POR FIN: de 5 a 1
+-> TRATANDO INT. SW
+
+
+
+3rd Message
+
+
+-> FIN PROCESO 1
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 10, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 20, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 9, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 19, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 8, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 18, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 7, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 17, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 6, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 16, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 5, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 15, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 4, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 14, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 3, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 13, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 2, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 12, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 3 , ticks: 1, rodaja: 0 , vueltas: 0, estado: 3 
+-> Proceso id: 5 , ticks: 11, rodaja: -70 , vueltas: 0, estado: 3 
+-> C.CONTEXTO POR FIN: de 1 a 3
+-> TRATANDO INT. SW
+
+
+
+3rd Message
+
+
+-> FIN PROCESO 3
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 10, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 9, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 8, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 7, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 6, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 5, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 4, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 3, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 2, rodaja: -70 , vueltas: 0, estado: 3 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+LISTOS:
+No hay procesos en la lista.
+DORMIDOS:
+-> Proceso id: 5 , ticks: 1, rodaja: -70 , vueltas: 0, estado: 3 
+-> C.CONTEXTO POR FIN: de 3 a 5
+-> TRATANDO INT. SW
+
+
+
+3rd Message
+
+
+-> FIN PROCESO 5
