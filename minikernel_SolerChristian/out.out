@@ -1,0 +1,338 @@
+init: comienza
+-> PROC 0: CREAR PROCESO
+-> PROC 0: CREAR PROCESO
+-> PROC 0: CREAR PROCESO
+-> PROC 0: CREAR PROCESO
+-> PROC 0: CREAR PROCESO
+-> PROC 0: CREAR PROCESO
+init: termina
+-> FIN PROCESO 0
+-> C.CONTEXTO POR FIN: de 0 a 1
+1st Message
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+1st Message
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+1st Message
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+yosoy: pid = 4
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 6
+yosoy: pid = 6
+yosoy: pid = 6
+-> TRATANDO INT. DE reloj 
+-> FIN PROCESO 6
+-> C.CONTEXTO POR FIN: de 6 a 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+yosoy: pid = 2
+-> TRATANDO INT. DE reloj 
+-> FIN PROCESO 2
+-> C.CONTEXTO POR FIN: de 2 a 4
+yosoy: pid = 4
+-> FIN PROCESO 4
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> C.CONTEXTO POR FIN: de 4 a 1
+-> TRATANDO INT. SW
+2nd Message
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
