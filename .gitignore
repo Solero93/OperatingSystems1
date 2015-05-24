@@ -1,0 +1,22 @@
+minikernel_SolerChristian/boot/
+
+minikernel_SolerChristian/minikernel/kernel.o
+minikernel_SolerChristian/minikernel/kernel
+
+minikernel_SolerChristian/usuario/*.o
+minikernel_SolerChristian/usuario/dormilon
+minikernel_SolerChristian/usuario/excep_arit
+minikernel_SolerChristian/usuario/excep_mem
+minikernel_SolerChristian/usuario/get_pid
+minikernel_SolerChristian/usuario/init
+minikernel_SolerChristian/usuario/simplon
+minikernel_SolerChristian/usuario/yosoy
+
+minikernel_SolerChristian/usuario/lib/*.o
+
+/*
+  Ignore swap files
+*/
+
+*.swp
+*.swo
