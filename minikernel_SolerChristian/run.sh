@@ -19,6 +19,7 @@ rm -f usuario/get_pid
 rm -f usuario/init
 rm -f usuario/simplon
 rm -f usuario/yosoy
+rm -f usuario/get_ppid
 
 rm -f usuario/lib/serv.o
 

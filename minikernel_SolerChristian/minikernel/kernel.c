@@ -466,6 +466,13 @@ int get_pid() {
 }
 
 /*
+ * Practica 3 - Retornar identificador del procés pare
+ */
+int get_ppid(){
+  return -1;
+}
+
+/*
  *
  * Rutina de inicialización invocada en arranque
  *

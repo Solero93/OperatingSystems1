@@ -17,7 +17,7 @@ BIBLIOTECA=$(LIBDIR)/libserv.a
 CC=cc
 CFLAGS=-Wall -fPIC -Werror -g -I$(INCLUDEDIR)
 
-PROGRAMAS=init excep_arit excep_mem simplon get_pid dormilon yosoy
+PROGRAMAS=init excep_arit excep_mem simplon get_pid dormilon yosoy get_ppid
 
 all: biblioteca $(PROGRAMAS)
 
@@ -52,6 +52,9 @@ yosoy.o: $(INCLUDEDIR)/servicios.h
 yosoy: yosoy.o $(BIBLIOTECA)
 	$(CC) -shared -o $@ yosoy.o -L$(LIBDIR) -lserv
 
+get_ppid.o: $(INCLUDEDIR)/servicios.h
+get_ppid: get_ppid.o $(BIBLIOTECA)
+	$(CC) -shared -o $@ get_ppid.o -L$(LIBDIR) -lserv
 
 clean:
 	rm -f *.o $(PROGRAMAS)

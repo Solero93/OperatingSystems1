@@ -37,9 +37,10 @@ typedef struct BCP_t {
         void *pila;			/* dir. inicial de la pila */
 	BCPptr siguiente;		/* puntero a otro BCP */
 	void *info_mem;			/* descriptor del mapa de memoria */
-	int ticks;
-	int rodaja;
-	int vueltas; 
+	int ticks;	//Ticks que falten de dormir 
+	int rodaja;	//Rodajas que le quedan
+	int vueltas; 	//Vueltas que lleva el proceso
+	int ppid;	//Identificador del proceso padre
 } BCP;
 
 /*
@@ -97,6 +98,7 @@ int sis_terminar_proceso();
 int sis_escribir();
 int get_pid();
 int sis_dormir();
+int get_ppid();
 
 int replanificacion_pendiente = 0; // 0 -> no hay pendiente, 1 -> hay planificación pendiente 
   
@@ -107,6 +109,7 @@ servicio tabla_servicios[NSERVICIOS]={	{sis_crear_proceso},
 					{sis_terminar_proceso},
 					{sis_escribir},
 					{get_pid},
-					{sis_dormir}};
+					{sis_dormir},
+					{get_ppid}};
 
 #endif /* _KERNEL_H */

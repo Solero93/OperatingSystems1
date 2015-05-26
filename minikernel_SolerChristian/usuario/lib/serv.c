@@ -49,3 +49,6 @@ int get_pid() {
 int dormir(int tiempo) {
 	return llamsis(DORMIR, 1, (long)tiempo);
 }
+int get_ppid() {
+  	return llamsis(GET_PPID, 0);
+}
