@@ -3,5 +3,116 @@ init: comienza
 init: termina
 -> FIN PROCESO 0
 -> C.CONTEXTO POR FIN: de 0 a 1
-get_ppid: ppid = -1
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 1 a 0
+get_ppid: ppid = 1
+-> FIN PROCESO 0
+-> C.CONTEXTO POR FIN: de 0 a 2
+get_ppid: ppid = 1
+-> FIN PROCESO 2
+-> C.CONTEXTO POR FIN: de 2 a 1
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 1 a 0
+get_ppid: ppid = 1
+-> FIN PROCESO 0
+-> C.CONTEXTO POR FIN: de 0 a 2
+get_ppid: ppid = 1
+-> FIN PROCESO 2
+-> C.CONTEXTO POR FIN: de 2 a 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 1 a 0
+get_ppid: ppid = 1
+-> FIN PROCESO 0
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> NO HAY LISTOS. ESPERA INT
+-> TRATANDO INT. DE reloj 
+-> C.CONTEXTO POR FIN: de 0 a 1
+-> TRATANDO INT. DE reloj 
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 1 a 0
+get_ppid: ppid = 1
+-> FIN PROCESO 0
+-> C.CONTEXTO POR FIN: de 0 a 2
+get_ppid: ppid = 1
+-> FIN PROCESO 2
+-> C.CONTEXTO POR FIN: de 2 a 3
+get_ppid: ppid = 1
+-> FIN PROCESO 3
+-> C.CONTEXTO POR FIN: de 3 a 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. SW
+-> C.CONTEXTO POR FIN: de 1 a 0
+get_ppid: ppid = 1
+-> FIN PROCESO 0
+-> C.CONTEXTO POR FIN: de 0 a 1
+-> PROC 1: CREAR PROCESO
+yosoy: pid = 1
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
+-> TRATANDO INT. DE reloj 
 -> FIN PROCESO 1
+-> C.CONTEXTO POR FIN: de 1 a 0
+get_ppid: ppid = -1
+-> FIN PROCESO 0

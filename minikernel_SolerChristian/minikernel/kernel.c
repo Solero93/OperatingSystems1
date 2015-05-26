@@ -168,17 +168,25 @@ static void cambio_proceso (lista_BCPs* lista){
 	
 	eliminar_primero(&lista_listos);
 	
-	if(lista == &lista_dormidos){
+	if(lista == &lista_dormidos){ // Dormir
 		(proc->estado)=BLOQUEADO;
 		insertar_ultimo(lista,proc);
-	} else {
-		if(lista == &lista_listos){
+	} else { 
+		if(lista == &lista_listos){ // Cambio
 			(proc->estado)=LISTO;
 			insertar_ultimo(lista,proc);
 		} else {
-			if(lista == NULL){
+			if(lista == NULL){ // Liberar
 				(proc->estado)=TERMINADO;
+				//NOTE Practica 3 -> asignando ID si el padre ha muerto
+				int i;
+				for (i=0; i<MAX_PROC; i++){
+					if((tabla_procs[i].ppid == proc->id) && (tabla_procs[i].estado != TERMINADO)){
+						tabla_procs[i].ppid = -1;
+					}
+				}
 				liberar_pila(proc->pila);
+				
 			}
 		}
 	}
@@ -334,15 +342,11 @@ static void int_sw(){
 		if((p_proc_actual->siguiente) == NULL){
 			(p_proc_actual->rodaja) = TICKS_POR_RODAJA;
 		} else {
-			
 			(p_proc_actual->vueltas) = (p_proc_actual->vueltas) + 1;
-			
 			if ((p_proc_actual->vueltas) >= VUELTAS_MAX){
 				(p_proc_actual->vueltas) = VUELTAS_INIT;
 				(p_proc_actual->ticks) = (TICKS_POR_RODAJA * 3) / 4;
 				cambio_proceso(&lista_dormidos);
-			
-			  
 			} else {
 				(p_proc_actual->rodaja) = TICKS_POR_RODAJA / 2;
 				cambio_proceso(&lista_listos);
@@ -353,7 +357,6 @@ static void int_sw(){
 }
 
 /*
- 
  * Funcion auxiliar que crea un proceso reservando sus recursos.
  * Usada por llamada crear_proceso.
  *
@@ -384,7 +387,10 @@ static int crear_tarea(char *prog){
 		p_proc->estado=LISTO;
 		p_proc->rodaja=TICKS_POR_RODAJA;
 		p_proc->vueltas=VUELTAS_INIT;
-
+		//NOTE Practica 3 -> asignando id del padre
+		if(p_proc_actual){
+			p_proc->ppid = p_proc_actual->id;
+		}
 		/* lo inserta al final de cola de listos */
 		insertar_ultimo(&lista_listos, p_proc);
 		error= 0;
@@ -469,13 +475,11 @@ int get_pid() {
  * Practica 3 - Retornar identificador del procés pare
  */
 int get_ppid(){
-  return -1;
+  return p_proc_actual->ppid;
 }
 
 /*
- *
  * Rutina de inicialización invocada en arranque
- *
  */
 int main(){
 	/* se llega con las interrupciones prohibidas */
@@ -499,6 +503,9 @@ int main(){
 	/* activa proceso inicial */
 	p_proc_actual=planificador();
 	cambio_contexto(NULL, &(p_proc_actual->contexto_regs));
+	/* NOTE Práctica 3 : asignación inicial como proceso padre */
+	p_proc_actual->ppid = -1;
+	
 	panico("S.O. reactivado inesperadamente");
 	return 0;
 }

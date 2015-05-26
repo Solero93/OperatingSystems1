@@ -44,11 +44,11 @@ int escribir(char *texto, unsigned int longi){
 	return llamsis(ESCRIBIR, 2, (long)texto, (long)longi);
 }
 int get_pid() {
-  	return llamsis(GET_PID, 0);
+	return llamsis(GET_PID, 0);
 }
 int dormir(int tiempo) {
 	return llamsis(DORMIR, 1, (long)tiempo);
 }
 int get_ppid() {
-  	return llamsis(GET_PPID, 0);
+	return llamsis(GET_PPID, 0);
 }
