@@ -41,6 +41,7 @@ typedef struct BCP_t {
 	int rodaja;	//Rodajas que le quedan
 	int vueltas; 	//Vueltas que lleva el proceso
 	int ppid;	//Identificador del proceso padre
+	int num_hijos;	//Número de hijos del proceso
 } BCP;
 
 /*
@@ -99,6 +100,7 @@ int sis_escribir();
 int get_pid();
 int sis_dormir();
 int get_ppid();
+int espera();
 
 int replanificacion_pendiente = 0; // 0 -> no hay pendiente, 1 -> hay planificación pendiente 
   
@@ -110,6 +112,7 @@ servicio tabla_servicios[NSERVICIOS]={	{sis_crear_proceso},
 					{sis_escribir},
 					{get_pid},
 					{sis_dormir},
-					{get_ppid}};
+					{get_ppid},
+					{espera}};
 
 #endif /* _KERNEL_H */

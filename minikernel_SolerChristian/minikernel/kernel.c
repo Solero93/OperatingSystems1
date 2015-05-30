@@ -478,6 +478,16 @@ int get_ppid(){
   return p_proc_actual->ppid;
 }
 
+/**
+ * Practica 3 - Espera :
+ *	return 0 -> han acabat d'executar tots els fills 
+ *	return -1 -> encara els fills s'están executant
+ */
+int espera(){
+  return -1;
+}
+
+
 /*
  * Rutina de inicialización invocada en arranque
  */
