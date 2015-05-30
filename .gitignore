@@ -11,6 +11,7 @@ minikernel_SolerChristian/usuario/simplon
 minikernel_SolerChristian/usuario/yosoy
 
 minikernel_SolerChristian/usuario/lib/serv.o
+minikernel_SolerChristian/usuario/lib/libserv.a
 
 /*
   Ignore swap files
