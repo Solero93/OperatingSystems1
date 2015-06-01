@@ -81,6 +81,11 @@ lista_BCPs lista_listos = {NULL, NULL};
 lista_BCPs lista_dormidos = {NULL, NULL};
 
 /*
+ * Practica 3 - Lista de procesos en espera
+ */
+lista_BCPs lista_espera = {NULL, NULL};
+
+/*
  *
  * Definición del tipo que corresponde con una entrada en la tabla de
  * llamadas al sistema.

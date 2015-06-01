@@ -18,23 +18,23 @@ int main(){
 
 	printf("init: comienza\n");
 
+	if (crear_proceso("dormilon")<0)
+	 	printf("Error creando dormilon\n");
+	if (crear_proceso("dormilon") < 0) 
+	  	printf("Error creando dormilon\n"); 
+	if (crear_proceso("dormilon") < 0) 
+	  	printf("Error creando dormilon\n"); 
+	if (crear_proceso("dormilon") < 0) 
+	  	printf("Error creando dormilon\n"); 
+/*	if (crear_proceso("yosoy")<0)
+	 	printf("Error creando este proceso\n");
+	if (crear_proceso("yosoy") < 0) 
+	  	printf("Error creando yosoy\n"); 
 	if (crear_proceso("yosoy")<0)
 	 	printf("Error creando este proceso\n");
-	
-	/*	
-	if (crear_proceso("dormilon")<0)
-	 	printf("Error creando este proceso\n");
 	if (crear_proceso("yosoy") < 0) 
-	  	printf("Error creando yosoy\n"); 
-	if (crear_proceso("dormilon")<0)
-	 	printf("Error creando este proceso\n");
-	if (crear_proceso("yosoy") < 0) 
-	  	printf("Error creando yosoy\n"); 
-	if (crear_proceso("dormilon")<0)
-	 	printf("Error creando este proceso\n");
-	if (crear_proceso("yosoy") < 0) 
-	  	printf("Error creando yosoy\n"); 
-	*/	
+	  	printf("Error creando yosoy\n"); 	
+*/	espera();
 /* Son los procesos de ejemplo iniciales, solo molestan en las pruebas
 	// Este programa causa una excepción 
 	if (crear_proceso("excep_arit")<0)

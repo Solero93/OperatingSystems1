@@ -20,6 +20,7 @@ rm -f usuario/init
 rm -f usuario/simplon
 rm -f usuario/yosoy
 rm -f usuario/get_ppid
+rm -f usuario/espera
 
 rm -f usuario/lib/serv.o
 

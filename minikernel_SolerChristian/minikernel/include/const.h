@@ -34,6 +34,7 @@
 #define LISTO 1
 #define EJECUCION 2
 #define BLOQUEADO 3
+#define ESPERANDO 4
 
 /*
  * Niveles de ejecución del procesador. 
