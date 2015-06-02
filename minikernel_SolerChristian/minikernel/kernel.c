@@ -550,10 +550,10 @@ int main(){
 	
 	/* activa proceso inicial */
 	p_proc_actual=planificador();
-	cambio_contexto(NULL, &(p_proc_actual->contexto_regs));
 	/* NOTE Práctica 3 : asignación inicial como proceso padre con 0 hijos */
 	p_proc_actual->ppid = -1;
 	p_proc_actual->num_hijos = 0;
+	cambio_contexto(NULL, &(p_proc_actual->contexto_regs));
 	
 	panico("S.O. reactivado inesperadamente");
 	return 0;
