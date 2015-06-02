@@ -1,18 +1,19 @@
-Nom : Christian José Soler
+Nom: Christian José Soler
 DNI: Y0362369-H
 NIUB: 16314292
-				PRACTICA 2 - RR
+				PRÀCTICA 3 - Padre
 
 Per executar el programa he fet un script de bash run.sh que fa el make i imprimeix el resultat directament.
+També elimina els arxius generats de compilació posteriorment.
 
 Executar:
 $ sh run.sh
 
 Comentaris de la pràctica:
-- Per provar la planificacio round-robin de llesca variable creo un procés dormilon i unes quantes de get_pid
+- Per provar el servei get_ppid, he fet que un procés diferent d'init crei un altre
+- Per provar el procés espera, he fet que un procés diferent d'init esperi l'acabament d'un altre
 
 Coses que s'han fet a aquesta pràctica:
-- canviat bloquear a cambio_proceso
-- creat actualizar_rodaja
-- creat insertar_segundo.
-- adaptat les funcions per la planificació round-robin. 
+- Mètode que retorna l'identificador del pare d'un procés
+- Init acull "orfes"
+- Mètode espera que espera fins que els seus fills acabin

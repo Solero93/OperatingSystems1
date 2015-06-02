@@ -1,6 +1,6 @@
-## Bash script to run the minikernel 
+## Bash script to run the minikernel
 
-set -e # Exits on error
+set -e # Exits on first error
 
 make
 
@@ -23,8 +23,10 @@ rm -f usuario/get_ppid
 rm -f usuario/espera
 
 rm -f usuario/lib/serv.o
+rm -f usuario/lib/libserv.a
+
 
 ##Opening the output file
 
 # You can change kate for your favourite editor, let it be sublime-text, vim or whatever
-kate out.out || nano out.out ## If kate is not installed, use nano instead (should be on Linux by default)
+kate out.out || vim out.out || nano out.out ## If kate is not installed, use vim if not, use nano (should be installed)
