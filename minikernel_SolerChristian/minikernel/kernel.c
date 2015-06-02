@@ -245,11 +245,11 @@ static void cambio_proceso (lista_BCPs* lista){
 	printk("-> C.CONTEXTO POR FIN: de %d a %d\n",
 		proc->id, p_proc_actual->id);
 	
+	fijar_nivel_int(nivel);
+	
 	if (lista != NULL){
-		fijar_nivel_int(nivel);
 		cambio_contexto(&(proc->contexto_regs), &(p_proc_actual->contexto_regs));
 	} else {
-		fijar_nivel_int(nivel);
 		cambio_contexto(NULL, &(p_proc_actual->contexto_regs));
 	}
 }
@@ -421,6 +421,7 @@ static int crear_tarea(char *prog){
 		p_proc->estado=LISTO;
 		p_proc->rodaja=TICKS_POR_RODAJA;
 		p_proc->vueltas=VUELTAS_INIT;
+		p_proc->num_hijos=0;
 		//NOTE Practica 3 -> asignando id del padre
 		if(p_proc_actual){
 			p_proc->ppid = p_proc_actual->id;
