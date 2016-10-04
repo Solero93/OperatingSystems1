@@ -1,19 +1,19 @@
-minikernel_SolerChristian/out.out
+out.out
 
-minikernel_SolerChristian/minikernel/kernel.o
-minikernel_SolerChristian/minikernel/kernel
+minikernel/kernel.o
+minikernel/kernel
 
-minikernel_SolerChristian/usuario/*.o
-minikernel_SolerChristian/usuario/dormilon
-minikernel_SolerChristian/usuario/excep_arit
-minikernel_SolerChristian/usuario/excep_mem
-minikernel_SolerChristian/usuario/get_pid
-minikernel_SolerChristian/usuario/init
-minikernel_SolerChristian/usuario/simplon
-minikernel_SolerChristian/usuario/yosoy
+usuario/*.o
+usuario/dormilon
+usuario/excep_arit
+usuario/excep_mem
+usuario/get_pid
+usuario/init
+usuario/simplon
+usuario/yosoy
 
-minikernel_SolerChristian/usuario/lib/serv.o
-minikernel_SolerChristian/usuario/lib/libserv.a
+usuario/lib/serv.o
+usuario/lib/libserv.a
 
 /*
   Ignore swap files
